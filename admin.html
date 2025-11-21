@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - BearVentur Imersiv</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Additional styles for admin page */
+        #admin-dashboard {
+            width: 90%;
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 2rem;
+            background: var(--primary-color);
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        label {
+            display: block;
+            margin-bottom: .5rem;
+        }
+        input[type="text"], input[type="password"], textarea {
+            width: 100%;
+            padding: .5rem;
+            background: #333;
+            border: 1px solid #555;
+            color: var(--text-color);
+        }
+        .btn-admin {
+            width: 100%;
+            padding: 1rem;
+            background: var(--secondary-color);
+            color: var(--primary-color);
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">BearVentur Imersiv - Admin</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="admin-dashboard">
+            <div style="background-color: #ffc107; color: #1a1a1a; padding: 1.5rem; text-align: center; margin-bottom: 2rem;">
+                <h3 style="margin: 0; font-size: 1.5rem;">AVERTISSEMENT DE SÉCURITÉ</h3>
+                <p style="margin-top: 0.5rem;">Cette page n'est pas protégée. Toute personne connaissant l'URL peut y accéder et modifier le contenu de votre site.</p>
+                <p style="margin-top: 0.5rem;"><strong>ACTION REQUISE :</strong> Protégez ce fichier (<code>admin.html</code>) en utilisant les paramètres de votre hébergeur (par exemple, Vercel, Netlify) avant de déployer votre site.</p>
+            </div>
+            <h2>Tableau de Bord</h2>
+            <form id="data-form">
+                <!-- Dynamic form fields will be generated here -->
+                <button type="submit" class="btn-admin">Sauvegarder les modifications</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>
