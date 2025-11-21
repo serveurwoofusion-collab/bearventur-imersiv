@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "image": "assets/hero.jpg",
+    "title": "Vivez l'expérience Bear immersive",
+    "subtitle": "Événements puissants et intimes",
+    "buttonText": "Voir les événements",
+    "buttonLink": "#events"
+  },
+  "events": [
+    {
+      "title": "Soirée Bear Immersion XXL",
+      "description": "DJ et scénographie",
+      "date": "2026-07-14",
+      "price": 35,
+      "image": "assets/event1.jpg",
+      "paypalId": "paypal_event_001"
+    }
+  ],
+  "home": [],
+  "gallery": [
+    "assets/g1.jpg"
+  ]
+}
